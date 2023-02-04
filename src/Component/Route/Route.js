@@ -1,4 +1,5 @@
 import Header from "../Header/Header";
+import Main from "../Main/Main";
 import NotFound from "../NotFound/NotFound";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -7,7 +8,7 @@ const { createBrowserRouter } = require("react-router-dom");
 
      {
          path: '/',
-         element: <Header></Header>,
+         element: <Main></Main>,
     children: [
             {
                 path: '/',
