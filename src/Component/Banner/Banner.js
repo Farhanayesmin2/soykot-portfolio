@@ -9,10 +9,11 @@ import banner4 from "../../images/pexels-irina-iriser-1366957.jpg";
 import Typewriter from "typewriter-effect";
 const Banner = () => {
   return (
-    <div className="relative ">
+    <div className="relative" sytle={{ }}>
       <img
+        
         src={banner1}
-        className="absolute object-cover object-right-bottom w-full h-full  "
+        className="absolute bg-cover object-right-bottom inset-0 w-full h-full "
         alt=""
       />
       <div className="relative  top-0 bg-gray-900 bg-blend-color bg-opacity-75">

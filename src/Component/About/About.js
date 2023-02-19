@@ -67,7 +67,7 @@ pressure. A creative, determined, and  <strong> energetic </strong>person with a
             </svg>
             <span className="relative">The</span>
           </span>{' '}
-          quick, brown fox jumps over a lazy dog
+         TECHNICAL SKILLS
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem

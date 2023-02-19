@@ -1,13 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../images/student.png"
+import Banner from "../Banner/Banner";
+import banner1 from "../../images/pexels-peng-liu-169647.jpg";
 const Header = () => {
   return (
-    <div>
-      <header class="text-gray-600 body-font bg-gradient-to-l from-[#ffefc6] via-rose-200
-] to-[#ffefc6] shadow-lg">
+    <div className="" >
+      <header class="text-gray-600 body-font ">
+ 
+        
+
+        {/* bg-gradient-to-l from-[#d3eaf2] via-[#bee0ec]
+] to-[#d3eaf2] shadow-lg */}
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto bg-none">
+          
             <Link to="/home" class="mr-5 hover:text-pink-900 font-semibold text-[#00008B]">
               Home
             </Link>
@@ -52,6 +59,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <Banner></Banner>
     </div>
   );
 };
