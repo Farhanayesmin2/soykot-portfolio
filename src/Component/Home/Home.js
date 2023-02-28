@@ -18,7 +18,7 @@ const Home = () => {
         backgroundImage: `url('https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
       }}
     >
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div class="container  mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto bg-none">
           <Link
             to="/home"
@@ -61,7 +61,7 @@ const Home = () => {
 
         <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 ">
           <button
-            type="button"
+            type="button"  
             class="text-[#00008B]  font-sans text-medium h-12 w-auto  bg-gradient-to-br from-[#000000] via-[#0cf2f8] to-[#000000] hover:bg-gradient-to-t hover:from-[#000000] hover:via-[#0cf2f8] hover:to-[#000000] focus:ring-4 focus:outline-none focus:ring-[#0cf2f8] dark:focus:ring-[#0cf2f8] font-semibold rounded-lg px-5 py-2.5 text-center mr-2 mb-2 shadow-2xl shadow-[#0cf2f8]"
           >
             Hire Me

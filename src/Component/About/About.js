@@ -4,7 +4,7 @@ import { FcGlobe, FcPhotoReel, IconName } from "react-icons/fc";
 const About = () => {
     return (
         <div className='py-12'>
-            <h1 className="lg:text-4xl fw-  font-black text-[#00008B] hover:text-pink-900  ">Profile</h1>
+            <h1 className="lg:text-4xl   font-black text-[#0cf2f8] hover:text-pink-900  ">Profile</h1>
 
 <section class="dark:bg-gray-800 dark:text-gray-100">
 	<div class="container flex flex-col mx-auto lg:flex-row">
@@ -13,15 +13,17 @@ const About = () => {
         </div>
 		<div class="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12">
 			
-			<h2 class="lg:text-3xl font-semibold leading-none text-start text-[#00008B] hover:text-pink-900   ">Some information about me.</h2>
-			<p class="mt-4 mb-8 text-start text-sm">A versatile, dynamic and <strong> hard-working </strong>  professional with a background in Urban and Regional Planning.
+			<h2 class="lg:text-3xl font-semibold leading-none text-start text-[#b6fbfd] hover:text-pink-900   ">Some information about me.</h2>
+			<p class="mt-4 mb-8 text-start text-gray-300 text-sm">A versatile, dynamic and <strong> hard-working </strong>  professional with a background in Urban and Regional Planning.
 Possessing excellent problem-solving skills and the ability to work effectively in a team environment, even under
 pressure. A creative, determined, and  <strong> energetic </strong>person with an excellent eye for new problem-solving ideas.</p>
 
                        
-                 
+    
 
-			<button className="self-start text-black px-10 py-3 text-lg font-medium rounded-3xl bg-gradient-to-r from-[#00008B] via-pink-100 to-[#00008B]  dark:bg-fuchsia-400  dark:text-white hover:bg-rose-400">About More</button>
+ <button
+                className="self-start shadow-2xl border-2 border-[#0cf2f8] hover:shadow-[#0cf2f8] font-bold text-[#000000] transform hover:translate-y-3 duration-500 px-10 py-3
+  text-lg  rounded-3xl bg-gradient-to-r from-[#0cf2f8] via-[#c2fcff] to-[#0cf2f8]  ">About More</button>
                   
                   <div>
    
@@ -31,13 +33,13 @@ pressure. A creative, determined, and  <strong> energetic </strong>person with a
 	</div>
 </section>
 
-<section>
+<section   className="text-[#b6fbfd]">
 
    
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          <p className="inline-block text-[#0cf2f8] px-3 py-px mb-4 text-xs font-semibold tracking-wider  uppercase rounded-full bg-teal-accent-400">
             Brand new
           </p>
         </div>
@@ -46,7 +48,7 @@ pressure. A creative, determined, and  <strong> energetic </strong>person with a
             <svg
               viewBox="0 0 52 24"
               fill="currentColor"
-              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+              className="absolute text-[#0cf2f8]  top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
             >
               <defs>
                 <pattern
@@ -65,161 +67,83 @@ pressure. A creative, determined, and  <strong> energetic </strong>person with a
                 height="24"
               />
             </svg>
-            <span className="relative">The</span>
+            <span className="relative text-[#b6fbfd]">Academic</span>
           </span>{' '}
-         TECHNICAL SKILLS
+        <span className="relative text-[#b6fbfd]" >Project</span> 
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+         There are some tiny project on my  
         </p>
       </div>
       <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x">
         <div className="space-y-6 sm:px-16">
           <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-              <FcGlobe className='text-4xl'></FcGlobe>
+              <div className="flex items-center justify-center w-12 h-12 rounded-full shadow-xl shadow-[#0cf2f8] bg-[#000000]">
+              <h1 className='text-3xl text-[#0cf2f8]'>1</h1>
               </div>
             </div>
             <div>
-              <h6 className="mb-3 text-xl font-bold leading-5">
-              GIS & remote sensing software: 
+              <h6 className="mb-3 text-xl font-bold leading-2">
+              Project:
               </h6>
-              <p className="text-sm text-gray-900">
-               ArcGIS 10.8, QGIS 3.14.
+              <p className="text-sm text-gray-300">
+             Designing and development of a Residential Area; Project on: Monsurabad Niribili Abashon Prokolpo-
+5.
               </p>
             </div>
           </div>
           <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                <FcPhotoReel className='text-4xl'></FcPhotoReel>
+              <div className="flex items-center justify-center w-12 h-12 rounded-full shadow-xl shadow-[#0cf2f8] bg-[#000000]">
+              <h1 className='text-3xl text-[#0cf2f8]'>2</h1>
               </div>
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-              Design software:
+              Project:
               </h6>
-              <p className="text-sm text-gray-900">
-               Autocad (2D), Adobe Photoshop, Canva.
+              <p className="text-sm text-gray-300">
+           Rural Growth center identification, a case study on Silimpur Union, Bhangura upazila, Bangladesh.
               </p>
             </div>
           </div>
-          <div className="flex flex-col max-w-md sm:flex-row">
-            <div className="mb-4 mr-4">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                <svg
-                  className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div>
-              <h6 className="mb-3 text-xl font-bold leading-5">
-                Leverage agile
-              </h6>
-              <p className="text-sm text-gray-900">
-                The first mate and his Skipper too will do their very best to
-                make the others comfortable.
-              </p>
-            </div>
-          </div>
+          
         </div>
         <div className="space-y-6 sm:px-16">
           <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                <svg
-                  className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+            <div className="flex items-center justify-center w-12 h-12 rounded-full shadow-xl shadow-[#0cf2f8] bg-[#000000]">
+              <h1 className='text-3xl text-[#0cf2f8]'>3</h1>
+               
               </div>
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                Organically grow
+             Project:
               </h6>
-              <p className="text-sm text-gray-900">
-                Skate ipsum dolor sit amet, alley oop vert mute-air Colby Carter
-                flail 180 berm over the sea.
+              <p className="text-sm text-gray-300">
+             Socio-economic and Environmental Impact Analysis due to Infrastructure Development Projects in
+Bangladesh: a case study on Ishwardi-Pabna Railway Project.
               </p>
             </div>
           </div>
           <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                <svg
-                  className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+              <div className="flex items-center justify-center w-12 h-12 rounded-full shadow-xl shadow-[#0cf2f8] bg-[#000000]">
+              <h1 className='text-3xl text-[#0cf2f8]'>4</h1>
               </div>
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                Have a good one
+               Project:
               </h6>
-              <p className="text-sm text-gray-900">
-                Cheese on toast airedale the big cheese. Danish fontina cheesy
-                grin airedale danish fontina.
+              <p className="text-sm text-gray-300">
+               Air Quality Vulnerability Assessment on Ishwardi Upazila.
               </p>
             </div>
           </div>
-          <div className="flex flex-col max-w-md sm:flex-row">
-            <div className="mb-4 mr-4">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                <svg
-                  className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div>
-              <h6 className="mb-3 text-xl font-bold leading-5">
-                A slice of heaven
-              </h6>
-              <p className="text-sm text-gray-900">
-                A flower in my garden, a mystery in my panties. Heart attack
-                never stopped old Big Bear.
-              </p>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
