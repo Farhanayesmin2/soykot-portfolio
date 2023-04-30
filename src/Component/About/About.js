@@ -4,7 +4,7 @@ import { FcGlobe, FcPhotoReel, IconName } from "react-icons/fc";
 const About = () => {
     return (
         <div className='py-12'>
-            <h1 className="text-3xl  py-2   font-black text-[#0cf2f8] hover:text-pink-900  ">Profile</h1>
+            <h1 className="text-4xl font-black text-[#0cf2f8] hover:text-pink-900  ">Profile</h1>
 
 <section class="dark:bg-gray-800 dark:text-gray-100">
 	<div class="container flex flex-col mx-auto lg:flex-row">
