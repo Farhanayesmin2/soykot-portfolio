@@ -1,6 +1,5 @@
-import Header from "../Header/Header";
+import Education from "../Education/Education";
 import Home from "../Home/Home";
-import Main from "../Main/Main";
 import NotFound from "../NotFound/NotFound";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -12,8 +11,8 @@ const { createBrowserRouter } = require("react-router-dom");
          element: <Home></Home>,
     children: [
             {
-                path: '/',
-                element: <Home></Home>
+                path: '/education',
+                element: <Education></Education>
             },
            
          ]   
