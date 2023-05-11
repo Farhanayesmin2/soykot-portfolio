@@ -2,9 +2,31 @@ import React from 'react';
 import { FcGlobe } from "react-icons/fc";
 import { GiPhotoCamera } from "react-icons/gi";
 import { IconName, SiMicrosoftexcel, SiMicrosoftoffice } from "react-icons/si";
+import { useSpring, animated,useScroll } from '@react-spring/web'
+import { Slide } from 'react-awesome-reveal';
+
 const Skills = () => {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return (
         <div>
+     
             <section class="text-[#b6fbfd]">
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-2xl font-semibold  capitalize lg:text-3xl dark:text-white hover:text-red-800">explore our <br/> awesome Components</h1>
@@ -21,20 +43,23 @@ const Skills = () => {
             </div>
         <div class="mt-8 xl:mt-12 lg:flex lg:items-center">
                         <div class="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
-                           
-                <div class="space-y-3">
+                            <Slide direction="left">
+                            <div class="space-y-3">
+            
+   
                     <span class=" transform hover:-translate-y-3 duration-1000 inline-block p-3 text-blue-500 bg-[#000a0a]  border  border-[#0cf2f8] shadow-[#0cf2f8]  shadow-inner rounded-xl hover:text-[#b6fbfd] hover:shadow-2xl hover:shadow-[#0cf2f8]">
                        <FcGlobe className='text-4xl'></FcGlobe>
-                    </span>
-
+                    </span> 
+  
                     <h1 class="text-xl font-semibold  capitalize text-[#b6fbfd]">  GIS & remote sensing software: </h1>
 
                     <p class="text-gray-300 dark:text-gray-300">
                         ArcGIS 10.8, QGIS 3.14.
                     </p>
                 </div>
-
-                <div class="space-y-3">
+  </Slide>
+                <Slide direction="right">
+                            <div class="space-y-3">
                     <span class="transform hover:-translate-y-3 duration-1000    inline-block p-3 text-fuchsia-500/75 rounded-xl bg-[#000a0a]  border  border-[#0cf2f8] shadow-[#0cf2f8]  shadow-inner hover:text-[#b6fbfd] hover:shadow-2xl hover:shadow-[#0cf2f8]">
                           <GiPhotoCamera className='text-4xl'></GiPhotoCamera>
                     </span>
@@ -45,7 +70,7 @@ const Skills = () => {
                           Autocad (2D), Adobe Photoshop, Canva.
                     </p>
                 </div>
-
+</Slide>
                 <div class="space-y-3">
                     <span class=" transform hover:-translate-y-3 duration-1000    inline-block p-3 text-orange-600 bg-[#000a0a] rounded-xl  border  border-[#0cf2f8] shadow-[#0cf2f8] hover:text-[#b6fbfd] shadow-inner hover:shadow-2xl hover:shadow-[#0cf2f8]">
                         <SiMicrosoftoffice className='text-4xl' ></SiMicrosoftoffice>
