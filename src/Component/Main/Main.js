@@ -5,6 +5,7 @@ import Academic from "../Academic/Academic";
 import AcademicPro from "../Academic/AcademicPro";
 import Animation from "../Animation/Animation";
 import Education from "../Education/Education";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
 
@@ -19,9 +20,12 @@ const Main = () => {
           <Skills></Skills>
           <Education></Education>
         <AcademicPro></AcademicPro>
-     <Animation></Animation>
+    
+      <Footer></Footer>
      </div>
   );
 };
 
 export default Main;
+//https://ibb.co/jW34fcp
+//https://ibb.co/JKpbv3b
