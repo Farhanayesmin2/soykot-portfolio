@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Fade,JackInTheBox,Zoom } from "react-awesome-reveal";
 const Academic = () => {
     return (
         <div>
@@ -18,7 +18,7 @@ const Academic = () => {
             <svg
               viewBox="0 0 52 24"
               fill="currentColor"
-              className="absolute text-[#0cf2f8]  top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+              className="absolute text-[#0cf2f8]  top-0 left-0 z-0  w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10"
             >
               <defs>
                 <pattern
@@ -47,7 +47,7 @@ const Academic = () => {
       </div>
       <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x">
         <div className="space-y-6 sm:px-16">
-          <div className="flex flex-col max-w-md sm:flex-row">
+          <div className="flex flex-col max-w-md sm:flex-row justify-center items-center">
             <div className="mb-4 mr-4">
               <div className="flex items-center justify-center w-12 h-12 rounded-full shadow-xl shadow-[#0cf2f8] bg-[#000000]">
               <h1 className='text-3xl text-[#0cf2f8]'>1</h1>
@@ -56,11 +56,16 @@ const Academic = () => {
             <div>
               <h6 className="mb-3 text-xl font-bold leading-2">
               Project:
-              </h6>
+                    </h6>
+                    <Fade direction='left
+                  '>
+
+                   
               <p className="text-sm text-gray-300">
              Designing and development of a Residential Area; Project on: Monsurabad Niribili Abashon Prokolpo-
 5.
-              </p>
+                      </p>
+                       </Fade>
             </div>
           </div>
           <div className="flex flex-col max-w-md sm:flex-row">
@@ -72,10 +77,12 @@ const Academic = () => {
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
               Project:
-              </h6>
+                    </h6>
+               <Fade direction='left'>
               <p className="text-sm text-gray-300">
            Rural Growth center identification, a case study on Silimpur Union, Bhangura upazila, Bangladesh.
-              </p>
+                      </p>
+                      </Fade>
             </div>
           </div>
           
@@ -91,11 +98,13 @@ const Academic = () => {
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
              Project:
-              </h6>
+                    </h6>
+                    <Fade direction='right'>
               <p className="text-sm text-gray-300">
              Socio-economic and Environmental Impact Analysis due to Infrastructure Development Projects in
 Bangladesh: a case study on Ishwardi-Pabna Railway Project.
-              </p>
+                      </p>
+                      </Fade>
             </div>
           </div>
           <div className="flex flex-col max-w-md sm:flex-row">
@@ -107,10 +116,12 @@ Bangladesh: a case study on Ishwardi-Pabna Railway Project.
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
                Project:
-              </h6>
+                    </h6>
+                     <Fade direction='right'>
               <p className="text-sm text-gray-300">
                Air Quality Vulnerability Assessment on Ishwardi Upazila.
-              </p>
+                      </p>
+                      </Fade>
             </div>
           </div>
          
