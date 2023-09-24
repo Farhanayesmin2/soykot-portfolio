@@ -71,6 +71,7 @@ const Skills = () => {
                     </p>
                 </div>
 </Slide>
+<Slide direction="left">
                 <div class="space-y-3">
                     <span class=" transform hover:-translate-y-3 duration-1000    inline-block p-3 text-orange-600 bg-[#000a0a] rounded-xl  border  border-[#0cf2f8] shadow-[#0cf2f8] hover:text-[#b6fbfd] shadow-inner hover:shadow-2xl hover:shadow-[#0cf2f8]">
                         <SiMicrosoftoffice className='text-4xl' ></SiMicrosoftoffice>
@@ -83,7 +84,8 @@ const Skills = () => {
 
                     </p>
                 </div>
-
+                </Slide>
+                <Slide direction="right">
                 <div class="space-y-3">
                     <span class=" transform hover:-translate-y-3 duration-1000   inline-block p-3 text-pink-800/90  bg-[#000a0a] rounded-xl  border  border-[#0cf2f8] shadow-[#0cf2f8]  shadow-inner hover:text-[#b6fbfd] hover:shadow-2xl hover:shadow-[#0cf2f8]">
                         <SiMicrosoftexcel className='text-4xl'></SiMicrosoftexcel>
@@ -95,9 +97,9 @@ const Skills = () => {
                        MS Excel, SPSS
                     </p>
                             </div>
-                            
+                            </Slide> 
                         </div>
-                        
+                    
   <div class="hidden lg:flex lg:w-1/2 lg:justify-center">
                 <img class="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
             </div>
