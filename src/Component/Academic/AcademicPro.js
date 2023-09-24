@@ -16,7 +16,7 @@ const AcademicPro = () => {
   >
             <div  class="mx-auto max-w-lg text-center">
                 
-      <h3 class="text-[#b6fbfd] text-3xl sm:text-2xl font-bold font-serif ">Co-curricular Activities</h3>
+      <h3 class="text-[#b6fbfd]  font-serif sm:text-2xl font-semibold   text-3xl">Co-curricular Activities</h3>
 
      
     </div>
