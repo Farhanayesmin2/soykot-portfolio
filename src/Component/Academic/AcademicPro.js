@@ -1,8 +1,10 @@
 import React from 'react';
 import { FcBusinessman} from "react-icons/fc";
-import {  IoFootball, IoFootballOutline } from "react-icons/io5";
-  
-
+import {   IoFootballOutline } from "react-icons/io5";
+import { FaCameraRetro, FaUserGraduate, FaUserTie } from "react-icons/fa";
+import { GiJugglingClubs } from 'react-icons/gi';
+import { GrUserManager } from 'react-icons/gr';
+import {   IoIosPeople} from 'react-icons/io';
 const AcademicPro = () => {
 
     return (
@@ -14,7 +16,7 @@ const AcademicPro = () => {
   >
             <div  class="mx-auto max-w-lg text-center">
                 
-      <h2 class="text-3xl font-bold sm:text-4xl relative animate-header duration-500 ease-in-out ">Co-curricular Activities</h2>
+      <h3 class="text-[#b6fbfd] text-3xl sm:text-2xl font-bold font-serif ">Co-curricular Activities</h3>
 
      
     </div>
@@ -23,7 +25,7 @@ const AcademicPro = () => {
     <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]" href="/services/digital-campaigns">
 
   <div class="flex items-center justify-center mb-4">
-    <FcBusinessman class="w-12 h-12" />
+    <FaUserTie class="w-12 h-12 text-[#0cf2f8]" />
   </div>
 
   <h2 class="mt-4 text-xl font-bold text-white">Vice-President</h2>
@@ -49,24 +51,9 @@ const AcademicPro = () => {
       </a>
 
      <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]" href="/services/digital-campaigns">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-10 w-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
+     <div class="flex items-center justify-center mb-4">
+    <FaUserGraduate class="w-12 h-12 text-[#0cf2f8] "></FaUserGraduate>
+    </div>
 
         <h2 class="mt-4 text-xl font-bold text-white">General secretary</h2>
 
@@ -76,24 +63,10 @@ const AcademicPro = () => {
       </a>
 
      <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]" href="/services/digital-campaigns">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-10 w-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
+
+     <div class="flex items-center justify-center mb-4">
+    <FaCameraRetro class="w-12 h-12 text-[#0cf2f8] "></FaCameraRetro>
+    </div>
 
         <h2 class="mt-4 text-xl font-bold text-white">Active member</h2>
 
@@ -103,25 +76,11 @@ const AcademicPro = () => {
       </a>
 
       <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]" href="/services/digital-campaigns">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-10 w-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
+    
 
+      <div class="flex items-center justify-center mb-4">
+    <   IoIosPeople class="w-12 h-12 text-[#0cf2f8] "></   IoIosPeople>
+    </div>
         <h2 class="mt-4 text-xl font-bold text-white"> Active member</h2>
 
         <p class="mt-1 text-sm text-gray-300">
@@ -130,25 +89,10 @@ const AcademicPro = () => {
       </a>
 
     <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]" href="/services/digital-campaigns">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-10 w-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
+   
+    <div class="flex items-center justify-center mb-4">
+    < GiJugglingClubs class="w-12 h-12 text-[#0cf2f8] "></ GiJugglingClubs>
+    </div>
         <h2 class="mt-4 text-xl font-bold text-white">Joint Secretary</h2>
 
         <p class="mt-1 text-sm text-gray-300">

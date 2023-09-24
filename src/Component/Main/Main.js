@@ -3,7 +3,6 @@ import React from "react";
 import About from "../About/About";
 import Academic from "../Academic/Academic";
 import AcademicPro from "../Academic/AcademicPro";
-import Animation from "../Animation/Animation";
 import Education from "../Education/Education";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";

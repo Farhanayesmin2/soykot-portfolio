@@ -14,9 +14,9 @@ const Education = () => {
                   <div className="text-center sm:text-left mb-5 before:block before:w-24 before:h-1 before:mb-3 before:rounded-lg before:mx-auto sm:before:mx-0 before:bg-[#0cf2f8]"></div>
                 </div>
                 <AttentionSeeker animate__backInDown>
-                  <h3 className="text-3xl font-bold font-serif"  >Educatonal</h3>
+                  <h3 className="text-3xl sm:text-2xl font-bold font-serif"  >Educatonal</h3>
                 </AttentionSeeker>
-                <span className="font-mono text-sm font-bold tracking-wider uppercase dark:text-gray-400">
+                <span className="font-mono text-sm font-bold tracking-wider uppercase ">
                   Background
                 </span>
               </div>
@@ -29,7 +29,7 @@ const Education = () => {
                   <h3 className="text-xl font-semibold tracking-wide">
                     Bachelor of science
                   </h3>
-                  <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+                  <time className="text-xs tracking-wide uppercase ">
                     2020
                   </time>
                   <p className="mt-3">
@@ -53,7 +53,7 @@ const Education = () => {
                   <h3 className="text-xl font-semibold tracking-wide">
                     Higher Secondary Certificate
                   </h3>
-                  <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+                  <time className="text-xs tracking-wide uppercase ">
                     2016
                   </time>
                   <p className="mt-3">
@@ -76,7 +76,7 @@ const Education = () => {
                   <h3 className="text-xl font-semibold tracking-wide">
                     Secondary School Certificate
                   </h3>
-                  <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+                  <time className="text-xs tracking-wide uppercase ">
                     2014
                   </time>
                   <p className="mt-3">

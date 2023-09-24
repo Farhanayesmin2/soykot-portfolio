@@ -29,7 +29,7 @@ const Skills = () => {
      
             <section class="text-[#b6fbfd]">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold  capitalize lg:text-3xl dark:text-white hover:text-red-800">explore our <br/> awesome Components</h1>
+        <h1 class="sm:text-2xl font-semibold  capitalize text-3xl ">explore our <br/> awesome Components</h1>
 
         <div class="mt-2">
             <span class="inline-block w-40 h-1 bg-[#0cf2f8] rounded-full"></span>
