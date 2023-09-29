@@ -18,8 +18,9 @@ const AcademicPro = () => {
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3  ">
             <Zoom direction="down
             " >
+              <>
             <a
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
+              class="block rounded-xl border border-gray-500 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
               href="/services/digital-campaigns"
             >
               <div class="flex items-center justify-center mb-4">
@@ -32,12 +33,13 @@ const AcademicPro = () => {
                 Vice-President at United students of Bogura, Pabna University of
                 Science And Technology.
               </p>
-            </a>
+            </a></>
             </Zoom>
             <Zoom direction="down
             ">
+              <>
             <a
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
+              class="block rounded-xl border border-gray-500 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
               href="/services/digital-campaigns"
             >
               <div class="flex items-center justify-center mb-4">
@@ -49,12 +51,12 @@ const AcademicPro = () => {
                 Spots secretary at URP Association, Pabna University of Science
                 And Technology.
               </p>
-            </a>
+            </a></>
             </Zoom>
             <Zoom direction="down
-            ">
+            "><>
             <a
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
+              class="block rounded-xl border border-gray-500 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
               href="/services/digital-campaigns"
             >
               <div class="flex items-center justify-center mb-4">
@@ -69,12 +71,13 @@ const AcademicPro = () => {
                 General secretary at public university student’s association of
                 salmara.
               </p>
-            </a>
+            </a></>
             </Zoom>
             <Zoom direction="down
             ">
+              <>
             <a
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
+              class="block rounded-xl border border-gray-500 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
               href="/services/digital-campaigns"
             >
               <div class="flex items-center justify-center mb-4">
@@ -87,12 +90,13 @@ const AcademicPro = () => {
                 Active member of Photography Society, Pabna University of
                 Science And Technology.
               </p>
-            </a>
+            </a></>
             </Zoom>
             <Zoom direction="down
             ">
+               <>
             <a
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
+              class="block rounded-xl border border-gray-500 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
               href="/services/digital-campaigns"
             >
               <div class="flex items-center justify-center mb-4">
@@ -103,12 +107,14 @@ const AcademicPro = () => {
               <p class="mt-1 text-sm text-gray-300">
                 Active member of UMESAS, Sonatola, Bogra.
               </p>
-            </a>
+              <br></br>
+            </a></>
             </Zoom>
             <Zoom direction="down
             ">
+              <>
             <a
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
+              class="block rounded-xl border border-gray-500 p-7 shadow-xl transition hover:border-shadow-[#0cf2f8] hover:shadow-[#0cf2f8]"
               href="/services/digital-campaigns"
             >
               <div class="flex items-center justify-center mb-4">
@@ -119,7 +125,7 @@ const AcademicPro = () => {
               <p class="mt-1 text-sm text-gray-300">
                 Joint Secretary at Hiatpur Supreme fighters club.
               </p>
-            </a>
+            </a></>
             </Zoom>
           </div>
         </div>
