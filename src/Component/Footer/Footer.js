@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:items-center">
           <img className="w-40 h-40 object-cover  rounded-full mb-4 md:mb-0 md:mr-4 mx-auto md:mx-0" src="https://i.ibb.co/THsfhXZ/Soykot-removebg-fotor-bg-remover-20230511191752.png" alt="Profile Image" />
           <div className="text-center md:text-left">
-            <h2 className="text-2xl font-bold">Your Name</h2>
+            <h2 className="text-2xl font-bold">Soykot Hossain</h2>
             <div className="flex justify-center md:justify-start mt-2">
 
 
@@ -34,19 +34,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex flex-col items-center md:items-start">
             <span className="font-bold mb-2">EMAIL:</span>
-            <span>michael@domain.com</span>
+            <span>soykot244@gmail.com</span>
           </div>
           <div className="flex flex-col items-center md:items-start">
             <span className="font-bold mb-2">BIRTHDAY:</span>
-            <span>20 August</span>
+            <span>24 December</span>
           </div>
           <div className="flex flex-col items-center md:items-start">
             <span className="font-bold mb-2">PHONE:</span>
-            <span>(555) 555-1234</span>
+            <span>+880-1782003045</span>
           </div>
           <div className="flex flex-col items-center md:items-start">
             <span className="font-bold mb-2">LOCATION:</span>
-            <span>Kingston, New York 12401</span>
+            <span>Mirpur-2, Dhaka,Bangladesh</span>
           </div>
         </div>
       </div>
