@@ -43,7 +43,7 @@ const Header = () => {
           </Link>
         </nav>
         <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-          <img className="w-12 h-12" src={logo} />
+        
           <span class="ml-3 font-sans text-[#0cf2f8] font-semibold text-xl">
             <span className="text-2xl font-bold text-[#86f9fc] animate-pulse">
               S
@@ -64,7 +64,7 @@ const Header = () => {
             Hire Me
           </button>
           <div class="relative">
-            <img class="w-10 h-10 rounded-full" src={logo} alt="profile pic" />
+            <img class="w-10 h-10 rounded-full" src="https://i.ibb.co/THsfhXZ/Soykot-removebg-fotor-bg-remover-20230511191752.png" alt="profile pic" />
             <span class="bottom-0 left-7 top-8 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
           </div>
         </div>
