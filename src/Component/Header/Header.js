@@ -16,7 +16,7 @@ const Header = () => {
       }}
     >
       <div class="container  mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto bg-none">
+        <nav class="flex  lg:w-2/5 flex-wrap items-center text-base md:ml-auto bg-none">
           <Link
             to="/home"
             class="mr-5 hover:text-pink-900 font-semibold text-[#86f9fc]"
@@ -42,7 +42,7 @@ const Header = () => {
             Contact Me
           </Link>
         </nav>
-        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 ">
         
           <span class="ml-3 font-sans text-[#0cf2f8] font-semibold text-xl">
             <span className="text-2xl font-bold text-[#86f9fc] animate-pulse">
@@ -56,7 +56,7 @@ const Header = () => {
           </span>
         </a>
 
-        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 ">
+        <div class="lg:w-2/5 inline-flex lg:justify-end xl:mt-0 lg:mt-0 md:mt-4 mt-4 ml-5 lg:ml-0 ">
           <button
             type="button"  
             class="text-[#00008B]  font-sans text-medium h-12 w-auto  bg-gradient-to-br from-[#000000] via-[#0cf2f8] to-[#000000] hover:bg-gradient-to-t hover:from-[#000000] hover:via-[#0cf2f8] hover:to-[#000000] focus:ring-4 focus:outline-none focus:ring-[#0cf2f8] dark:focus:ring-[#0cf2f8] font-semibold rounded-lg px-5 py-2.5 text-center mr-2 mb-2 shadow-2xl shadow-[#0cf2f8]"
